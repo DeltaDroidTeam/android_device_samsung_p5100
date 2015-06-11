@@ -20,6 +20,10 @@
 # to only building on ARM if they include assembly. Individual makefiles
 # are responsible for having their own logic, for fine-grained control.
 
+# HACK for prebuilt libril
+$(shell mkdir -p $(OUT)/obj/SHARED_LIBRARIES/libril_intermediates)
+$(shell touch $(OUT)/obj/SHARED_LIBRARIES/libril_intermediates/export_includes)
+
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),p5100)
