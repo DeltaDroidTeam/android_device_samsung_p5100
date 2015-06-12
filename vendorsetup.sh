@@ -1,0 +1,1 @@
+add_lunch_combo pac_p5100-userdebug
