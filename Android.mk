@@ -23,6 +23,8 @@
 # HACK for prebuilt libril
 $(shell mkdir -p $(OUT)/obj/SHARED_LIBRARIES/libril_intermediates)
 $(shell touch $(OUT)/obj/SHARED_LIBRARIES/libril_intermediates/export_includes)
+$(shell mkdir -p $(OUT)/obj/lib)
+$(shell cp vendor/samsung/p51xx/p5110/system/lib/libril.so $(OUT)/obj/lib/libril.so)
 
 LOCAL_PATH := $(call my-dir)
 
