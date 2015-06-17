@@ -40,4 +40,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=espresso10rfxx \
     TARGET_DEVICE=espresso10rf \
     BUILD_FINGERPRINT="samsung/espresso10rfxx/espresso10rf:4.2.2/JDQ39/P5100XXDNA1:user/release-keys" \
-    PRIVATE_BUILD_DESC="espresso10rfxx-user 4.2.2 JDQ39 P5100XXDNA1 release-keys"
+    PRIVATE_BUILD_DESC="espresso10rfxx-user 4.2.2 JDQ39 P5100XXDNA1 release-keys" \
+    PRODUCT_BOOTLOADER="P5100DXDMD1"
